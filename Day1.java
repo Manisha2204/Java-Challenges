@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 // reverse the string without the string builder
 public class Day1 {
