@@ -87,13 +87,14 @@ This challenge is **continuous**  — a way to **stay consistent with coding** a
 
 * If none found, displayed a message
 
-Sample Run:
+* **Sample Run:**
 
-Input: swiss  
-Output: First non-repeating character: w  
-
-Input: mamama 
-Output: No non-repeating character found
+  ```
+  Input: swiss  
+  Output: FIrst non-repeating character: w 
+   Input: mamama 
+  Output: No non-repeating character found
+   ```
 
 ---
 ✨ More challenges coming soon!
