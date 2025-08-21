@@ -73,7 +73,29 @@ This challenge is **continuous**  — a way to **stay consistent with coding** a
   ```
 
 ---
+### **Day 4 – First Non-Repeating Character**
 
+* **Challenge:** Find the first non-repeating character in a string.
+
+* **Approach:**
+
+* Traversed string character by character
+
+* For each character, checked if it repeats elsewhere
+
+* Printed the first character that does not repeat
+
+* If none found, displayed a message
+
+Sample Run:
+
+Input: swiss  
+Output: First non-repeating character: w  
+
+Input: mamama 
+Output: No non-repeating character found
+
+---
 ✨ More challenges coming soon!
 📂 Each solution is available in this repository with code and sample test cases.
 
