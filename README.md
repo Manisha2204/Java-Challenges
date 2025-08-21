@@ -97,6 +97,31 @@ This challenge is **continuous**  — a way to **stay consistent with coding** a
    ```
 
 ---
+---
+### **Day 5 – Build Your Own substring() Function**
+
+* **Challenge:** Implement a custom substring() method in Java without using the built-in one.
+
+* **Approach:**
+
+* Took user input string and start/end indexes with Scanner
+
+* Checked for invalid indexes (negative, greater than length, or start > end)
+
+* Traversed the string character by character from start to end - 1
+
+* Built the result manually and returned it as substring
+
+* **Sample Run:**
+
+  ```
+  Input: JavaProgramming
+  Start: 4
+  End: 11
+  Output: Program 
+   ```
+
+---
 ✨ More challenges coming soon!
 📂 Each solution is available in this repository with code and sample test cases.
 
