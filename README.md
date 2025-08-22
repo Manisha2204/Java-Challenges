@@ -122,6 +122,31 @@ This challenge is **continuous**  — a way to **stay consistent with coding** a
    ```
 
 ---
+### **Day 6– Anagram Checker**
+
+* **Challenge:** Check if two strings are anagrams (contain the same characters with the same frequency, arranged differently).
+
+* **Approach:**
+
+* Took two string inputs using Scanner.
+
+* Converted both strings to lowercase and removed spaces.
+
+* Checked if their lengths were equal (quick rejection if not).
+
+* Converted both strings into character arrays.
+
+* Sorted both arrays and compared them using Arrays.equals().
+
+* **Sample Run:**
+
+  ```
+  Input:
+  Enter your first String: listen
+  Enter your second String: silent
+  Output: Anagram 
+   ```
+---
 ✨ More challenges coming soon!
 📂 Each solution is available in this repository with code and sample test cases.
 
