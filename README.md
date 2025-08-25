@@ -147,6 +147,29 @@ This challenge is **continuous**  — a way to **stay consistent with coding** a
   Output: Anagram 
    ```
 ---
+### **Day 7– Longest Word in a Sentence**
+
+* **Challenge:** Find the longest word in a given sentence.
+
+* **Approach:**
+
+* Took user input sentence with Scanner.
+
+* Split the sentence into words using .split(" ").
+
+* Initialized an empty string longestWord.
+
+* Traversed each word, compared lengths, and updated the longest.
+
+* Printed the longest word at the end.
+
+* **Sample Run:**
+
+  ```
+  Input: I love solving coding problems daily
+  Output: problems
+   ```
+---
 ✨ More challenges coming soon!
 📂 Each solution is available in this repository with code and sample test cases.
 
