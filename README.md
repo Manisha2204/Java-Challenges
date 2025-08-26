@@ -170,6 +170,47 @@ This challenge is **continuous**  — a way to **stay consistent with coding** a
   Output: problems
    ```
 ---
+### **Day 8 – Find Maximum & Minimum in an Array**
+
+💻 **Challenge:** Write a Java program to find the maximum and minimum element in an array.
+
+---
+
+### **Approach 1 – Iteration (Efficient `O(n)` method)**
+
+* Took input with Scanner
+* Assumed first element as both `max` and `min`
+* Traversed array from index `1` to `n-1`
+* Compared each element with `max` and `min`, updated accordingly
+
+**Sample Run:**
+
+```
+Input: 10 5 88 2 65  
+Output:  
+The maximum element in the array is: 88  
+The minimum element in the array is: 2  
+```
+
+---
+
+### **Approach 2 – Using Arrays.sort() (Simpler `O(n log n)` method)**
+
+* Took input with Scanner
+* Used `Arrays.sort()` to sort the array
+* Picked `arr[0]` as `min` and `arr[size-1]` as `max`
+
+**Sample Run:**
+
+```
+Input: 10 5 88 2 65  
+Output:  
+The maximum element in the array is: 88  
+The minimum element in the array is: 2  
+```
+
+---
+
 ✨ More challenges coming soon!
 📂 Each solution is available in this repository with code and sample test cases.
 
