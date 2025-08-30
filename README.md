@@ -211,6 +211,103 @@ The minimum element in the array is: 2
 
 ---
 
+### **Day 9 – Array Rotation (Left & Right)**
+
+* **Challenge:** Rotate the elements of an array `k` times in either left or right direction.
+
+* **Approach:**
+
+  * Took array input from the user
+  * Applied the **Reversal Algorithm** for rotation
+
+    * Right Rotation:
+
+      1. Reverse entire array
+      2. Reverse first `k` elements
+      3. Reverse remaining elements
+    * Left Rotation:
+
+      1. Reverse first `k` elements
+      2. Reverse remaining elements
+      3. Reverse entire array
+  * Printed the rotated array
+
+* **Sample Run (Right Rotation):**
+
+  ```
+  Input:
+  Enter the size of the array: 5
+  Enter the elements in the array: 1 2 3 4 5
+  Enter the number of rotation: 3
+  Enter the type of rotation(left/right): right
+
+  Output:
+  Original Array: 1 2 3 4 5
+  Array after right rotation 3 times is: [3, 4, 5, 1, 2]
+  ```
+
+* **Sample Run (Left Rotation):**
+
+  ```
+  Input:
+  Enter the size of the array: 5
+  Enter the elements in the array: 1 2 3 4 5
+  Enter the number of rotation: 2
+  Enter the type of rotation(left/right): left
+
+  Output:
+  Original Array: 1 2 3 4 5
+  Array after left rotation 2 times is: [3, 4, 5, 1, 2]
+  ```
+
+---
+
+### **Day 10 – Find Duplicate Elements in an Array**
+
+* **Challenge:** Find all duplicate elements in an array.
+
+* **Approach:**
+
+  * Used a **HashSet** `seen` to store visited elements
+  * If `seen.add(num)` returns `false`, element is duplicate → store in another set `duplicate`
+  * Printed all duplicates
+
+* **Sample Run:**
+
+  ```
+  Input:
+  Enter the size of the array: 10
+  Enter the elements: 5 3 8 2 5 9 3 7 1 8
+
+  Output:
+  Duplicate elements are: [5, 3, 8]
+  ```
+
+---
+
+### **Day 11 – Find the Missing Number in an Array**
+
+* **Challenge:** Find the missing element in a sequence of numbers.
+
+* **Approach:**
+
+  * Formula for expected sum of first `n` natural numbers: `n*(n+1)/2`
+  * Calculated actual sum of given elements
+  * Missing number = Expected sum – Actual sum
+
+* **Sample Run:**
+
+  ```
+  Input:
+  Enter the last number that you want in the array : 5
+  Enter the 4 elements in the array:
+  1 2 4 5
+
+  Output:
+  The missing number is : 3
+  ```
+
+---
 ✨ More challenges coming soon!
 📂 Each solution is available in this repository with code and sample test cases.
 
