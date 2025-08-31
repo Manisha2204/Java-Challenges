@@ -339,10 +339,6 @@ Here’s the **Day 12 content** written in the same format as your previous ones
   ```
 
 ---
-Perfect 👍 You want the **GitHub content for Day 13 (Factorial using Recursion)** in the **same style and format as your Day 12 (Binary Search)**.
-Here’s the content:
-
----
 
 ### **Day 13 – Factorial using Recursion**
 
