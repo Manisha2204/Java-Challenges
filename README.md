@@ -308,6 +308,37 @@ The minimum element in the array is: 2
   ```
 
 ---
+Here’s the **Day 12 content** written in the same format as your previous ones 👇
+
+---
+
+### **Day 12 – Binary Search using Recursion**
+
+* **Challenge:** Implement Binary Search in Java using recursion.
+
+* **Approach:**
+
+  * Took array input from user
+  * Sorted the array using `Arrays.sort()`
+  * Defined a recursive function `binarysearch(arr, low, high, target)`
+  * Compared middle element with target:
+
+    * If equal → return index
+    * If target < mid → search left subarray
+    * If target > mid → search right subarray
+  * Base case: if `low > high`, return -1 (not found)
+
+* **Sample Run:**
+
+  ```
+  Size of array: 5
+  Array elements are: 10 3 6 8 2
+  Target element : 6
+
+  The target element 6 is found at index: 3
+  ```
+
+---
 ✨ More challenges coming soon!
 📂 Each solution is available in this repository with code and sample test cases.
 
