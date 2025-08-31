@@ -339,6 +339,34 @@ Here’s the **Day 12 content** written in the same format as your previous ones
   ```
 
 ---
+Perfect 👍 You want the **GitHub content for Day 13 (Factorial using Recursion)** in the **same style and format as your Day 12 (Binary Search)**.
+Here’s the content:
+
+---
+
+### **Day 13 – Factorial using Recursion**
+
+* **Challenge:** Implement Factorial calculation in Java using recursion.
+
+* **Approach:**
+
+  * Took a number input from the user.
+  * Defined a recursive function `factorial(n)`:
+
+    * Base case → if `n == 0` or `n == 1`, return `1`.
+    * Recursive case → return `n * factorial(n - 1)`.
+  * Printed the result.
+
+* **Sample Run:**
+
+  ```
+  Enter a number: 5
+
+  Factorial of 5 is: 120
+  ```
+
+---
+
 ✨ More challenges coming soon!
 📂 Each solution is available in this repository with code and sample test cases.
 
