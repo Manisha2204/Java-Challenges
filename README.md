@@ -396,6 +396,50 @@ Here’s the **Day 12 content** written in the same format as your previous ones
   ```
 
 ---
+Here’s your **GitHub content** in the format you shared, for your **Bank Application (Day 15 Challenge)** 👇
+
+```markdown
+### **Day 15 – Bank Application**
+
+* **Challenge:** Create a simple **Bank Application** in Java to perform basic banking operations.  
+
+* **Approach:**
+  * Designed a `BankAccount` class with attributes → account holder, account number, and balance.  
+  * Implemented methods for:
+    * **Deposit** → Add money to the account  
+    * **Withdraw** → Deduct money with balance check  
+    * **Check Balance** → Display current account balance  
+  * Took multiple user inputs for creating bank accounts.  
+  * Tested the functionality with different deposit, withdrawal, and balance operations.  
+
+* **Test Cases & Sample Run:**
+
+  **Inputs:**  
+```
+
+1. alice   1001   2000
+2. bob     1002   1500
+3. charlie 1003   1000
+4. david   1004   3000
+5. emma    1005   5000
+
+```
+
+**Operations:**  
+```
+
+1. Deposit 500 to 1001 → New Balance = 2500
+2. Withdraw 700 from 1002 → New Balance = 800
+3. Withdraw 2000 from 1003 → Insufficient balance (Balance = 1000)
+4. Check balance of 1004 → Balance = 3000
+5. Deposit 1000 to 1005 → New Balance = 6000
+
+```
+
+---
+```
+
+
 
 ✨ More challenges coming soon!
 📂 Each solution is available in this repository with code and sample test cases.
