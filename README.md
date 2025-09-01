@@ -363,6 +363,40 @@ Here’s the **Day 12 content** written in the same format as your previous ones
 
 ---
 
+### **Day 14 – Tower of Hanoi**
+
+* **Challenge:** Solve the Tower of Hanoi problem using recursion.
+
+* **Approach:**
+
+  * Took number of disks as input from the user.
+  * Defined a recursive function `solve(n, source, auxiliary, destination)`:
+
+    * **Base case** → if `n == 1`, move the disk directly from source to destination.
+    * **Recursive case** →
+
+      1. Move `n-1` disks from **source → auxiliary**.
+      2. Move the `nth` disk from **source → destination**.
+      3. Move `n-1` disks from **auxiliary → destination**.
+  * Printed the sequence of moves step by step.
+
+* **Sample Run:**
+
+  ```
+  Enter number of disks: 3
+
+  Sequence of Moves: 
+  Move disk 1 from A to C
+  Move disk 2 from A to B
+  Move disk 1 from C to B
+  Move disk 3 from A to C
+  Move disk 1 from B to A
+  Move disk 2 from B to C
+  Move disk 1 from A to C
+  ```
+
+---
+
 ✨ More challenges coming soon!
 📂 Each solution is available in this repository with code and sample test cases.
 
