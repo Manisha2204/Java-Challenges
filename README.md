@@ -405,7 +405,7 @@ The minimum element in the array is: 2
     * **Withdraw** → Deduct money with balance check  
     * **Check Balance** → Display current balance  
   * Took multiple accounts input from the user and tested different operations.
- **Sample Run:**
+ * **Sample Run:**
 ```
 Accounts Created:
 
