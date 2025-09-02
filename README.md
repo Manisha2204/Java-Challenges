@@ -1,19 +1,19 @@
-# 🚀 Java Coding Challenge
+# Java Coding Challenge
 
 Welcome to my **Java Coding Challenge** repository! 🎯
 This is a personal journey where I solve **Java coding problems daily** to strengthen my problem-solving skills, practice clean code, and prepare for coding interviews.
 
 Each day, I’ll be uploading a new Java program with:
 
-* 📌 Problem statement
-* 🖥️ Code solution
-* ✅ Sample input/output
+*  Problem statement
+*  Code solution
+*  Sample input/output
 
 This challenge is **continuous**  — a way to **stay consistent with coding** and share my progress publicly.
 
 ---
 
-## ✅ Problems Solved
+##  Problems Solved
 
 ### **Day 1 – String Reversal**
 
@@ -514,8 +514,8 @@ Grade : C
 
 ---
 
-✨ More challenges coming soon!
-📂 Each solution is available in this repository with code and sample test cases.
+ More challenges coming soon!
+ Each solution is available in this repository with code and sample test cases.
 
 ---
 
