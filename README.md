@@ -424,6 +424,95 @@ Deposit 1000 to 1005 → Balance = 6000
 
 ```
 ---  
+### **Day 16 –  Student Marks & Grade Calculator**
+
+* **Challenge:** 
+Create a Java program that:
+1. Stores multiple students’ details (name, marks in different subjects).
+2. Calculates **total marks**, **average marks**, and **grade** for each student.
+3. Displays a report containing all student information.
+
+Grades are based on average marks:
+
+| Average (%)  | Grade |
+| ------------ | ----- |
+| 90 and above | A     |
+| 75 – 89      | B     |
+| 60 – 74      | C     |
+| 40 – 59      | D     |
+| Below 40     | F     |
+
+---
+
+* **Approach:**  
+
+1. **Create a `Student` class** with:
+
+   * Variables: `name`, `marks[]`, `total`, `average`, `grade`
+   * Methods:
+
+     * `calculatetotal()` → sums all marks
+     * `calculateaverage()` → computes average
+     * `calculategrade()` → assigns grade
+     * `displaydetails()` → prints student report
+
+2. **Constructor** initializes each student, calls the calculation methods.
+
+3. **In `main()`**:
+
+   * Take input for number of students.
+   * Loop through each student to input:
+
+     * Name
+     * Number of subjects
+     * Marks in each subject
+   * Store each student in an array.
+
+4. After input, loop through the array to **print the student report**.
+
+---
+
+
+ * **Sample Run:**
+
+
+
+```
+### Input:
+Total number of students are: 2
+
+Enter the details for student 1 :
+Enter the Student Name: Alice
+Enter the number of subjects: 3
+Enter marks for subject 1 : 95
+Enter marks for subject 2 : 88
+Enter marks for subject 3 : 92
+
+Enter the details for student 2 :
+Enter the Student Name: Bob
+Enter the number of subjects: 3
+Enter marks for subject 1 : 70
+Enter marks for subject 2 : 65
+Enter marks for subject 3 : 80
+```
+
+
+
+```
+### Output:
+=======Students Report=======
+Student name: Alice
+Total Marks: 275
+Average Marks: 91.66666666666667
+Grade : A
+
+Student name: Bob
+Total Marks: 215
+Average Marks: 71.66666666666667
+Grade : C
+```
+
+---
 
 ✨ More challenges coming soon!
 📂 Each solution is available in this repository with code and sample test cases.
