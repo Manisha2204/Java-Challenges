@@ -581,6 +581,81 @@ Grade : C
 
 ---
 
+### **Day 18 – Employee Database Management**
+
+* **Challenge:** Build a Java program to manage an Employee Database that supports the following operations:
+
+  * Add Employee
+  * Search Employee by ID
+  * Remove Employee
+  * Display All Employees
+  * Update Employee (multi-field)
+  * Exit
+
+* **Approach:**
+
+  * Created an `Employee` class with attributes: `id`, `name`, `department`, and `salary`.
+  * Used a `HashMap<Integer, Employee>` to store employee records with unique IDs.
+  * Implemented a **menu-driven program** using `switch-case`.
+  * Provided options to perform all CRUD operations (Create, Read, Update, Delete).
+  * Used `Scanner` for user input.
+
+* **Sample Run:**
+
+```
+=== Employee Database ===
+1. Add Employee
+2. Search Employee by ID
+3. Remove Employee
+4. Display All Employees
+5. Exit
+6. Update Employee (Multi-field)
+Enter choice: 1
+
+Enter ID: 101
+Enter Name: Rahul Mehta
+Enter Department: IT
+Enter Salary: 50000
+Employee added successfully!
+
+Enter choice: 1
+Enter ID: 102
+Enter Name: Sneha Reddy
+Enter Department: HR
+Enter Salary: 70000
+Employee added successfully!
+
+Enter choice: 4
+ID:101 | Name:Rahul Mehta | Dept:IT | Salary:50000
+ID:102 | Name:Sneha Reddy | Dept:HR | Salary:70000
+
+Enter choice: 2
+Enter ID to search: 101
+Found → ID:101 | Name:Rahul Mehta | Dept:IT | Salary:50000
+
+Enter choice: 6
+Enter Employee ID to update: 101
+Enter new Name: Rahul M
+Enter new Department: IT
+Enter new Salary: 60000
+Employee updated successfully!
+
+Enter choice: 4
+ID:101 | Name:Rahul M | Dept:IT | Salary:60000
+ID:102 | Name:Sneha Reddy | Dept:HR | Salary:70000
+
+Enter choice: 3
+Enter ID to remove: 102
+Employee removed successfully!
+
+Enter choice: 4
+ID:101 | Name:Rahul M | Dept:IT | Salary:60000
+
+Enter choice: 5
+Exiting Employee Database. Goodbye!
+```
+
+---
  More challenges coming soon!
  Each solution is available in this repository with code and sample test cases.
 
