@@ -514,6 +514,73 @@ Grade : C
 
 ---
 
+### **Day 17 – Library Management System (ArrayList Implementation)**
+
+* **Challenge:** Create a Library System in Java to add, search, remove, and display books using `ArrayList`. Add validations for empty fields and duplicate ISBNs.
+
+* **Approach:**
+
+  * Created a `Book` class with Title, Author, and ISBN.
+  * Used an `ArrayList<Book>` to store all books.
+  * Implemented methods:
+
+    * `addBook()` → adds a book (with validation for empty fields & duplicate ISBN).
+    * `removeBook()` → removes book by ISBN.
+    * `searchBook()` → searches book by Title.
+    * `displayBooks()` → shows all stored books.
+  * Used a menu-driven program with `Scanner` to take user input.
+
+* **Sample Runs:**
+
+  ```
+  === Library System Menu ===
+  1. Add Book
+  2. Remove Book
+  3. Search Book
+  4. Display All Books
+  5. Exit
+  Choose an Option: 1
+  Enter Title: Java Basics
+  Enter Author: James Gosling
+  Enter International Standard Book number: 111
+  Book added successfully!
+  ```
+
+  ```
+  Choose an Option: 1
+  Enter Title:
+  Enter Author: Unknown
+  Enter International Standard Book number: 101
+  Error: Title cannot be empty!
+  ```
+
+  ```
+  Choose an Option: 1
+  Enter Title: Data Structures
+  Enter Author: Narasimha Karumanchi
+  Enter International Standard Book number: 111
+  Error: A book with ISBN 111 already exists!
+  ```
+
+  ```
+  Choose an Option: 3
+  Enter Title to Search: Java Basics
+  Book Found → Title: Java Basics | Author: James Gosling | ISBN: 111
+  ```
+
+  ```
+  Choose an Option: 2
+  Enter ISBN to Remove: 111
+  Book removed successfully!
+  ```
+
+  ```
+  Choose an Option: 4
+  No books in the library!
+  ```
+
+---
+
  More challenges coming soon!
  Each solution is available in this repository with code and sample test cases.
 
