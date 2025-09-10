@@ -656,6 +656,51 @@ Exiting Employee Database. Goodbye!
 ```
 
 ---
+Got it 👍 You want to make a **GitHub challenge-post style content** for your `SortObjectsImproved.java`. Here’s how it would look in the same format:
+
+---
+
+### **Day 19 – Sort Students & Employees**
+
+* **Challenge:** Create a Java program to input **Students (name, marks)** and **Employees (name, salary)**, then sort them in ascending or descending order based on user choice.
+
+* **Approach:**
+
+  * Used **two classes**: `Students` and `Employees` with attributes and constructors.
+  * Overrode `toString()` for neat output.
+  * Took input using `Scanner`.
+  * Used `Comparator.comparingInt()` and `Comparator.comparingDouble()` for sorting.
+  * Provided menu-driven choices for dataset and sorting order.
+
+* **Sample Run:**
+
+  ```
+  Choose the dataset:
+  1. Students
+  2. Employees
+  Enter your choice: 1
+
+  Enter the number of Students: 3
+  Enter the Student name: Alice
+  Enter the Student marks: 85
+  Enter the Student name: Bob
+  Enter the Student marks: 72
+  Enter the Student name: Charlie
+  Enter the Student marks: 90
+
+  Choose the operation:
+  1. Sort the marks in the ascending order.
+  2. Sort the marks in the descending order.
+  Choice: 2
+
+  Sorted students (High->Low):
+  Charlie-90
+  Alice-85
+  Bob-72
+  ```
+
+---
+
  More challenges coming soon!
  Each solution is available in this repository with code and sample test cases.
 
