@@ -656,10 +656,6 @@ Exiting Employee Database. Goodbye!
 ```
 
 ---
-Got it 👍 You want to make a **GitHub challenge-post style content** for your `SortObjectsImproved.java`. Here’s how it would look in the same format:
-
----
-
 ### **Day 19 – Sort Students & Employees**
 
 * **Challenge:** Create a Java program to input **Students (name, marks)** and **Employees (name, salary)**, then sort them in ascending or descending order based on user choice.
